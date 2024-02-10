@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className=" px-8 fixed inset-x-0 h-auto top-0 bg-background  z-50 shadow">
+    <nav className=" fixed inset-x-0 h-auto top-0 bg-background  z-50 shadow">
       <div className="container flex items-center justify-between gap-5 w-full overflow-clip py-8">
         <Link href="/">
           <Logo className=" shrink-0" />
@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link href="/pricing">Pricing</Link>
           <Link href="/blog">Support</Link>
         </div>
-        <div className="flex gap-4 items-center shrink-0">
+        <div className="md:flex gap-4 items-center shrink-0 hidden">
           <Button variant="outline">Log In</Button>
           <Button variant="default">Get Started for Free</Button>
         </div>
