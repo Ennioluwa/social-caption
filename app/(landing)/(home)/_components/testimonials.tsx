@@ -19,9 +19,9 @@ const Testimonials = () => {
         Leverage the power of AI enhanced real-life video testimonials
       </p>
 
-      <div className=" max-h-[800px]  lg:max-h-[640px] overflow-clip rounded-lg bg-[#0F0D0F] flex flex-col md:flex-row">
+      <div className=" max-h-[800px]  lg:max-h-[640px] overflow-clip rounded-lg bg-[#0F0D0F] flex flex-col md:flex-row gap-10 md:gap-0">
         <div className=" flex flex-col gap-12 p-8 justify-center flex-1">
-          <div className=" flex gap-4 items-center">
+          <div className=" flex gap-4">
             <Notification
               variant="Bold"
               color="#A732AA"

@@ -79,16 +79,16 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-[4.5rem] leading-[4.5rem] tracking-[-4px] text-white font-semibold;
+    @apply text-[3rem] leading-[3rem]  md:text-[4.5rem] md:leading-[4.5rem] md:tracking-[-4px] text-white font-semibold;
   }
   h2 {
-    @apply text-[3.5rem] leading-[3.5rem] tracking-[-4px] text-white font-semibold;
+    @apply text-[2.5rem] leading-[2.5rem] md:text-[3.5rem] md:leading-[3.5rem] md:tracking-[-4px] text-white font-semibold;
   }
   h3 {
-    @apply text-[3rem] leading-[3rem] tracking-[-4px] text-white font-semibold;
+    @apply text-[2rem] leading-[2rem] md:text-[3rem] md:leading-[3rem] md:tracking-[-4px] text-white font-semibold;
   }
   h4 {
-    @apply text-[2rem] leading-[2rem] tracking-[-3.2%] text-white;
+    @apply text-[1.5rem] leading-[1.5rem] md:text-[2rem] md:leading-[2rem] md:tracking-[-3.2%] text-white;
   }
   h5 {
     @apply text-[1.5rem] leading-[1.5rem] font-semibold tracking-[-4%] text-white;

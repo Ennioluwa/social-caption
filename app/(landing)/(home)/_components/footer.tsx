@@ -32,7 +32,7 @@ const Footer = () => {
         <p className=" text-nowrap">Contact Us</p>
         <p className=" text-nowrap">Developer&apost;s API</p>
       </div>
-      <div className=" flex flex-col gap-6 flex-[1.3]">
+      <div className=" flex flex-col gap-6 flex-[1]">
         <h5>Social</h5>
         <div className="flex gap-4 items-center">
           <div className=" grid place-items-center h-8 w-8 rounded-full bg-[#737373]"></div>
