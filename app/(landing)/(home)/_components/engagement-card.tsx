@@ -18,7 +18,7 @@ const EngagementCard: FC<EngagementCardProps> = ({
   subTitle,
 }) => {
   return (
-    <div className=" max-h-[800px] lg:max-h-[560px] overflow-clip rounded-lg bg-[#151415] flex flex-col lg:flex-row gap-8">
+    <div className=" max-h-[800px] lg:max-h-[560px] overflow-clip z-20 rounded-lg bg-[#151415] flex flex-col lg:flex-row gap-8">
       <div className=" flex flex-col gap-12 p-8 justify-center ">
         <div className=" h-14 w-14 rounded-full bg-[#130513] border-primary grid place-items-center">
           <Icon variant="Bold" color="#A732AA" size={18} />

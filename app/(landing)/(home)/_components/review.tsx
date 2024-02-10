@@ -4,7 +4,7 @@ import ReviewCard from "./review-card";
 
 const Review = () => {
   return (
-    <section className=" pt-32">
+    <section className=" px-8 pt-32">
       <h2 className=" pb-4 text-center">Review. Engage. Grow</h2>
       <p className=" pb-20 text-center ">
         Leverage the power of AI enhanced real-life video testimonials{" "}

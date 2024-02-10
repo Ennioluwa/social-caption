@@ -5,7 +5,7 @@ import EngagementCard from "./engagement-card";
 
 const Engagements = () => {
   return (
-    <section className=" pt-32">
+    <section className=" px-8 pt-32">
       <h2 className=" pb-4 text-center">Boost your engagements</h2>
       <p className=" pb-20 text-center ">
         Leverage the power of AI enhanced real-life video testimonials

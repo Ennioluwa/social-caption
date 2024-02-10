@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className=" fixed inset-x-0 h-auto top-0 bg-background  z-50 shadow">
+    <nav className=" px-8 fixed inset-x-0 h-auto top-0 bg-background  z-50 shadow">
       <div className="container flex items-center justify-between gap-5 w-full overflow-clip py-8">
         <Link href="/">
           <Logo className=" shrink-0" />

@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" pt-28 flex flex-col">
-      <div className="flex flex-col p-8 items-center justify-center text-center lg:w-[80%] mx-auto py-20">
+    <div className=" px-8 pt-28 flex flex-col">
+      <div className="flex flex-col gap-8 items-center justify-center text-center lg:w-[80%] mx-auto py-20">
         <h1>Boost your business with AI enhanced videos</h1>
         <p className=" lg:px-20">
           Leverage the power of AI enhanced real-life video testimonials to
