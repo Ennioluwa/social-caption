@@ -11,8 +11,7 @@ import {
 
 const HomePage = () => {
   return (
-    <div className=" container flex flex-col">
-      <Navbar />
+    <div className="flex flex-col overflow-clip w-full h-full">
       <Hero />
       <Review />
       <Engagements />

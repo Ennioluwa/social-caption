@@ -1,10 +1,9 @@
 import { cn } from "@/lib/utils";
-import { GeistSans as FontSans } from "geist/font/sans";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
-
-export const fontSans = FontSans;
 
 export const metadata: Metadata = {
   title: "Social Caption",
@@ -17,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          GeistSans.className
         )}
       >
         {children}

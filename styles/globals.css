@@ -79,7 +79,7 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-[4.5rem] tracking-[-4px] text-white font-semibold;
+    @apply text-[4.5rem] leading-[4.5rem] tracking-[-4px] text-white font-semibold;
   }
   h2 {
     @apply text-[3.5rem] tracking-[-4px] text-white font-semibold;
