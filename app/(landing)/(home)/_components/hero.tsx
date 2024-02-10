@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" pt-28 min-h-[calc(100vh)] flex flex-col">
-      <div className="flex flex-col gap-4 items-center justify-center text-center lg:w-[80%] mx-auto py-20">
+    <div className=" pt-28 flex flex-col">
+      <div className="flex flex-col p-8 items-center justify-center text-center lg:w-[80%] mx-auto py-20">
         <h1>Boost your business with AI enhanced videos</h1>
         <p className=" lg:px-20">
           Leverage the power of AI enhanced real-life video testimonials to
@@ -21,7 +21,7 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full pt-8">
         <AspectRatio ratio={1220 / 801}>
           <Image
             src="/images/hero.png"
