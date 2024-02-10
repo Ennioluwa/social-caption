@@ -9,7 +9,7 @@ import {
   Testimonials,
 } from "./_components";
 
-const LandingPage = () => {
+const HomePage = () => {
   return (
     <div className=" container flex flex-col">
       <Navbar />
@@ -24,4 +24,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default HomePage;
