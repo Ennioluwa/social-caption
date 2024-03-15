@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 import type { Metadata } from "next";
-import { Navbar } from "./(home)/_components";
+import { Footer, Navbar } from "./(home)/_components";
 
 export const metadata: Metadata = {
   title: "Social Caption",
@@ -17,6 +17,7 @@ export default function RootLayout({
     <div className="container px-0 overflow-clip w-full h-full flex flex-col">
       <Navbar />
       <div className=" ">{children}</div>
+      <Footer />
     </div>
   );
 }
