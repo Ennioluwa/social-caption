@@ -79,7 +79,7 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-[3rem] leading-[3rem]  md:text-[4.5rem] md:leading-[4.5rem] md:tracking-[-4%] text-white font-semibold;
+    @apply text-[3rem] leading-[3rem]  md:text-[4.4rem] md:leading-[4.5rem] md:tracking-[-4%] text-white font-semibold;
   }
   h2 {
     @apply text-[2.5rem] leading-[2.5rem] md:text-[3.5rem] md:leading-[3.5rem] md:tracking-[-4%] text-white font-semibold;
