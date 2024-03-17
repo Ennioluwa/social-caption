@@ -30,7 +30,7 @@ const Footer = () => {
         <p className=" text-nowrap">Get Help</p>
         <p className=" text-nowrap">FAQs</p>
         <p className=" text-nowrap">Contact Us</p>
-        <p className=" text-nowrap">Developer's API</p>
+        <p className=" text-nowrap">Developer&apos;s API</p>
       </div>
       <div className=" flex flex-col gap-6 flex-[1]">
         <h5>Social</h5>
