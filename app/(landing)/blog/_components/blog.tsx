@@ -2,7 +2,7 @@ import BlogCard from "./blog-card";
 
 const Blog = () => {
   return (
-    <div className="relative px-8 lg:px-12 py-28  w-full overflow-clip">
+    <div className="relative px-8 lg:px-12 py-28  w-full overflow-clip container">
       <div className="flex flex-col gap-8 lg:pt-12">
         <div className="flex lg:items-center justify-between gap-5 lg:gap-20 flex-col lg:flex-row">
           <h1 className=" text-nowrap">Socialcaption Blog</h1>

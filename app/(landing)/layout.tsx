@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="container px-0 overflow-clip w-full h-full flex flex-col">
+    <div className=" px-0 overflow-clip w-full h-full flex flex-col">
       <Navbar />
       <div className=" ">{children}</div>
       <Footer />

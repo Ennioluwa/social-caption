@@ -10,7 +10,7 @@ const VideoFunnel = () => {
   console.log(index);
 
   return (
-    <div className=" px-8 lg:px-12 py-32 bg-black">
+    <div className=" px-8 lg:px-12 py-32 container">
       <div className=" lg:w-1/2 lg:pr-16 pb-24">
         <h6>BUILD A VIDEO FUNNEL</h6>
         <h2 className=" pt-6">Create a video funnel to drive up engagements</h2>

@@ -3,7 +3,7 @@ import PlansCard from "./plans-card";
 
 const Plans = () => {
   return (
-    <div className="relative px-8 lg:px-12 py-28  w-full overflow-clip bg-[#080708]">
+    <div className="relative px-8 lg:px-12 py-28  w-full overflow-clip container">
       <div className="absolute inset-0 -z-30 flex items-center justify-center">
         <svg
           width="1440"

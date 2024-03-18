@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const GetStarted = () => {
   return (
-    <section className=" px-8 pt-32 w-full overflow-clip">
+    <section className="container px-8 pt-32 w-full overflow-clip">
       <div className=" flex flex-col gap-20">
         <div className=" flex flex-col md:flex-row gap-x-20 gap-y-10">
           <div className="flex-1">

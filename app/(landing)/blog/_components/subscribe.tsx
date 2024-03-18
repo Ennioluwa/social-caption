@@ -3,7 +3,7 @@ import { ArrowRight } from "iconsax-react";
 
 const Subscribe = () => {
   return (
-    <section className=" px-8 lg:px-12 pt-32 w-full overflow-clip">
+    <section className=" px-8 lg:px-12 pt-32 w-full overflow-clip container">
       <div className="flex">
         <h2 className="flex-1">Subscribe to socialcaptions </h2>
         <p className="flex-1">

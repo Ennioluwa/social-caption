@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Connect = () => {
   return (
-    <section className=" px-8 pt-32 w-full overflow-clip">
+    <section className=" container px-8 pt-32 w-full overflow-clip">
       <div className="grid place-items-center relative w-full overflow-clip">
         <div className=" text-center max-w-xl py-20 lg:py-40 flex flex-col gap-12 p-4 w-full">
           <h3>Connect with your favourite business tools </h3>

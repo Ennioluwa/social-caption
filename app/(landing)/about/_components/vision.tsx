@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ name, image, title }) => {
 
 const Vision = () => {
   return (
-    <section className=" px-8 pt-32 w-full overflow-clip">
+    <section className="container px-8 pt-32 w-full overflow-clip">
       <div className=" space-y-6">
         <h6>VISION</h6>
         <h2>

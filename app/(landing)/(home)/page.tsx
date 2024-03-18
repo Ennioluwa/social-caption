@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col overflow-clip w-full h-full">
       <Hero />
-      <div className="relative">
+      <div className="relative container ">
         <div className="absolute inset-0 -z-30 mt-20">
           <svg
             width="1440"

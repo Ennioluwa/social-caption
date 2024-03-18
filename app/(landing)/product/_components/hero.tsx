@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const HeroPage = () => {
   return (
-    <div className="relative pl-8 pt-28  w-full overflow-clip bg-black">
+    <div className="relative pl-8 pt-28  w-full overflow-clip container">
       <div className="flex flex-col lg:flex-row items-start gap-8 lg:pt-12">
         <div className="flex flex-col gap-8 items-start justify-center text-left w-full overflow-clip  mx-auto py-10 md:py-20">
           <h1 className="">

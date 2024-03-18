@@ -13,7 +13,7 @@ const PlansCard: FC<PricingData> = ({
   inclusion,
 }) => {
   return (
-    <div className=" max-w-lg rounded-lg lg:flex-1 flex flex-col gap-10 items-center p-6 border border-[#383238] text-center">
+    <div className=" max-w-lg lg:max-w-full rounded-lg lg:flex-1 flex flex-col gap-10 items-center p-6 border border-[#383238] text-center">
       <Button variant="secondary" size="sm">
         {name}
       </Button>
