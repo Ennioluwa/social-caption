@@ -61,7 +61,7 @@ export const pricingData: PricingData[] = [
   },
   {
     name: "STANDARD",
-    price: "$119.99/mo",
+    price: "$19.99 /mo",
     billingCycle: "billed yearly",
     description: "Create customized experiences and get detailed insights. ",
     time: "1200 mins",
@@ -81,7 +81,7 @@ export const pricingData: PricingData[] = [
   },
   {
     name: "BUSINESS",
-    price: "$239.99/mo",
+    price: "$29.99 /mo",
     billingCycle: "billed yearly",
     description:
       "Build complex workflows, manage large teams, and get prioritized support. ",
