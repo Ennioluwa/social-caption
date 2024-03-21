@@ -5,7 +5,7 @@ const Blog = () => {
     <div className="relative px-8 lg:px-12 py-28  w-full overflow-clip container">
       <div className="flex flex-col gap-8 lg:pt-12">
         <div className="flex lg:items-center justify-between gap-5 lg:gap-20 flex-col lg:flex-row">
-          <h1 className=" text-nowrap">Socialcaption Blog</h1>
+          <h1 className=" lg:text-nowrap">Socialcaption Blog</h1>
           <p className="">
             Stories, insights, and advice that will transform how you design and
             build for the web.
@@ -13,7 +13,7 @@ const Blog = () => {
         </div>
         <hr />
         <h2>Top Insights</h2>
-        <div className="flex gap-6">
+        <div className="flex flex-col lg:flex-row gap-6">
           <div className="flex-1 flex flex-col gap-5">
             <BlogCard />
             <BlogCard />
