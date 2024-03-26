@@ -13,7 +13,7 @@ const ProtectedLayout = ({ children }: ProtectedLayoutProps) => {
       <div className=" shrink-0 w-[350px] h-full hidden lg:block ">
         <Sidebar />
       </div>
-      <div className=" relative grow w-full h-full overflow-auto flex flex-col">
+      <div className=" relative grow w-full h-full overflow-auto flex flex-col gap-10 container ml-0 py-8">
         <Navbar />
         <div className="absolute inset-0 -z-30 flex items-center justify-center">
           <Image

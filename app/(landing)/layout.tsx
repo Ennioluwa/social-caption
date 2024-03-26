@@ -16,8 +16,10 @@ export default function RootLayout({
   return (
     <div className=" px-0 overflow-clip w-full h-full flex flex-col">
       <Navbar />
-      <div className=" ">{children}</div>
-      <Footer />
+      <div className="h-[calc(100vh-116px)] w-full overflow-xclip mt-[116px] overflow-auto flex flex-col">
+        <div className="  ">{children}</div>
+        <Footer />
+      </div>
     </div>
   );
 }

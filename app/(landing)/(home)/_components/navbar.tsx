@@ -3,10 +3,11 @@
 import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import GetStartedButton from "../../_components/get-started";
 
 const Navbar = () => {
   return (
-    <nav className=" fixed inset-x-0 h-auto top-0 bg-background  z-50 shadow">
+    <nav className=" fixed inset-x-0 h-[116px] top-0 bg-background  z-50 shadow border-b border-input">
       <div className="container flex items-center justify-between gap-5 w-full overflow-clip py-8">
         <Link href="/">
           <Logo className=" shrink-0" />
@@ -19,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className="md:flex gap-4 items-center shrink-0 hidden">
           <Button variant="outline">Log In</Button>
-          <Button variant="default">Get Started for Free</Button>
+          <GetStartedButton>Get Started for Free</GetStartedButton>
         </div>
       </div>
     </nav>

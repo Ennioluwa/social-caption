@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Icon as IconsaxIcon } from "iconsax-react";
 import Image from "next/image";
 import { FC } from "react";
+import GetStartedButton from "../../_components/get-started";
 
 interface EngagementCardProps {
   Icon: IconsaxIcon;
@@ -27,7 +28,9 @@ const EngagementCard: FC<EngagementCardProps> = ({
           <h3>{title}</h3>
           <p>{subTitle}</p>
         </div>
-        <Button className=" w-fit">Get Started for Free</Button>
+        <GetStartedButton className=" w-fit">
+          Get Started for Free
+        </GetStartedButton>
       </div>
       <AspectRatio
         ratio={1.3 / 1}

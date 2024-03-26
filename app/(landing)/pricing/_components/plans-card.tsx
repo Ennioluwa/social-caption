@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { PricingData } from "@/data/data";
 import { InfoCircle } from "iconsax-react";
 import { FC } from "react";
+import GetStartedButton from "../../_components/get-started";
 
 const PlansCard: FC<PricingData> = ({
   name,
@@ -40,7 +41,9 @@ const PlansCard: FC<PricingData> = ({
           ))}
         </ul>
       </div>
-      <Button className=" w-full mt-auto">Get Started with Plan</Button>
+      <GetStartedButton className=" w-full mt-auto">
+        Get Started with Plan
+      </GetStartedButton>
     </div>
   );
 };

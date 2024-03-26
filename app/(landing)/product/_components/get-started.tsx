@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import GetStartedButton from "../../_components/get-started";
 
 const GetStarted = () => {
   return (
@@ -8,13 +9,13 @@ const GetStarted = () => {
           <div className="  lg:flex-1">
             <h1>Get started for free with Socialcaption</h1>
           </div>
-          <div className=" flex-1 space-y-10 lg:space-y-20">
+          <div className=" flex-1 flex flex-col gap-5 lg:gap-10">
             <p>
               Leverage the power of AI enhanced real-life video testimonials to
               boost audience engagements and effectively grow your business.
               Leverage the power of AI enhanced real-life video testimonials.{" "}
             </p>
-            <Button>Get Started for Free</Button>
+            <GetStartedButton>Get Started for Free</GetStartedButton>
           </div>
         </div>
       </div>

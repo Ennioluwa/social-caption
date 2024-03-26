@@ -4,6 +4,7 @@ import { ArrowCircleRight2 } from "iconsax-react";
 import { ArrowRightCircle } from "lucide-react";
 import Image from "next/image";
 import { FC } from "react";
+import GetStartedButton from "../../_components/get-started";
 
 interface ReviewCardProps {
   image: string;
@@ -31,9 +32,9 @@ const ReviewCard: FC<ReviewCardProps> = ({
 
       <h4 className=" mt-8">{heading}</h4>
       <p>{subHeading}</p>
-      <Button className=" gap-4 w-fit mt-8" variant="secondary">
+      <GetStartedButton className=" gap-4 w-fit mt-8" variant="secondary">
         {button} <ArrowCircleRight2 size={16} variant="Bold" />
-      </Button>
+      </GetStartedButton>
     </div>
   );
 };

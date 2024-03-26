@@ -15,11 +15,10 @@ const Sidebar = () => {
       </Link>
       <div className="flex flex-col gap-4">
         {sidebarData.map((data, index) => (
-          <Link href={data.href}>
+          <Link href={data.href} key={index}>
             <Button
               className=" gap-4 p-4 text-white font-normal text-base w-full text-left justify-start"
               variant={pathname.includes(data.href) ? "default" : "ghost"}
-              key={index}
             >
               <data.icon size={24} variant={"Linear"} />
               {data.label}
@@ -38,11 +37,10 @@ const Sidebar = () => {
       </Link>
       <div className="flex flex-col gap-4">
         {accountHelpData.map((data, index) => (
-          <Link href={data.href}>
+          <Link href={data.href} key={index}>
             <Button
               className=" gap-4 p-4 text-white font-normal text-base w-full text-left justify-start"
               variant={pathname.includes(data.href) ? "default" : "ghost"}
-              key={index}
             >
               <data.icon size={24} variant={"Linear"} />
               {data.label}

@@ -4,10 +4,11 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import Image from "next/image";
+import GetStartedButton from "../../_components/get-started";
 
 const HeroPage = () => {
   return (
-    <div className="relative pl-8 pt-28  w-full overflow-clip container">
+    <div className="relative pl-8   w-full overflow-clip container">
       <div className="flex flex-col lg:flex-row items-start gap-8 lg:pt-12">
         <div className="flex flex-col gap-8 items-start justify-center text-left w-full overflow-clip  mx-auto py-10 md:py-20">
           <h1 className="">
@@ -18,7 +19,7 @@ const HeroPage = () => {
             boost audience engagements and effectively grow your business.
           </p>
           <div className=" flex items-center justify-center flex-wrap gap-8">
-            <Button>Get Started for Free</Button>
+            <GetStartedButton>Get Started for Free</GetStartedButton>
             <Button variant={"ghost"} className=" gap-2">
               Learn More <ArrowDown />
             </Button>

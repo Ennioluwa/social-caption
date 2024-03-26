@@ -24,7 +24,7 @@ export default async function RootLayout({
       <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
         <body
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
+            "min-h-dvh bg-background font-sans antialiased",
             GeistSans.className
           )}
         >

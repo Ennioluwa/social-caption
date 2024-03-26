@@ -3,6 +3,7 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import GetStartedButton from "../../_components/get-started";
 
 const GetStarted = () => {
   return (
@@ -18,7 +19,9 @@ const GetStarted = () => {
               boost audience engagements and effectively grow your business.
               Leverage the power of AI enhanced real-life video testimonials.
             </p>
-            <Button className=" w-fit">Get Started for Free</Button>
+            <GetStartedButton className=" w-fit">
+              Get Started for Free
+            </GetStartedButton>
           </div>
         </div>
         <div className=" max-h-96">

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const HeroPage = () => {
   return (
-    <div className="relative px-8 pt-28  w-full overflow-clip container">
+    <div className="relative px-8   w-full overflow-clip container">
       <div className="absolute inset-0 -z-30 flex items-center justify-center">
         <svg
           width="1440"
