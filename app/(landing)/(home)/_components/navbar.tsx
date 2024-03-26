@@ -19,7 +19,9 @@ const Navbar = () => {
           <Link href="/blog">Support</Link>
         </div>
         <div className="md:flex gap-4 items-center shrink-0 hidden">
-          <Button variant="outline">Log In</Button>
+          <Link href="/auth/login">
+            <Button variant="outline">Log In</Button>
+          </Link>
           <GetStartedButton>Get Started for Free</GetStartedButton>
         </div>
       </div>
